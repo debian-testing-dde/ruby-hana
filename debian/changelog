@@ -1,0 +1,12 @@
+ruby-hana (1.3.7-1obs2) unstable; urgency=medium
+
+  * Replace the YAML gemspec dump with a Ruby gemspec so gem2deb can
+    parse the package metadata in OBS builds.
+
+ -- hao <hao@local>  Sun, 15 Mar 2026 03:55:00 +0800
+
+ruby-hana (1.3.7-1obs1) unstable; urgency=medium
+
+  * Bootstrap package for OBS on Debian testing.
+
+ -- hao <hao@local>  Sun, 15 Mar 2026 03:45:00 +0800

@@ -1,0 +1,18 @@
+Source: ruby-hana
+Section: ruby
+Priority: optional
+Maintainer: hao <hao@local>
+Build-Depends: debhelper-compat (= 13),
+ gem2deb
+Standards-Version: 4.7.0
+Homepage: http://github.com/tenderlove/hana
+Rules-Requires-Root: no
+
+Package: ruby-hana
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby:any,
+ ${misc:Depends},
+ ${ruby:Depends}
+Description: JSON Patch and JSON Pointer implementation for Ruby
+ Implementation of JSON Patch and JSON Pointer for Ruby code.
